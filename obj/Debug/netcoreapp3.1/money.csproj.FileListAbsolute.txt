@@ -1,0 +1,5 @@
+C:\Users\Andre\source\repos\money\obj\Debug\netcoreapp3.1\money.csproj.AssemblyReference.cache
+C:\Users\Andre\source\repos\money\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Andre\source\repos\money\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Andre\source\repos\money\obj\Debug\netcoreapp3.1\money_MarkupCompile.cache
+C:\Users\Andre\source\repos\money\obj\Debug\netcoreapp3.1\money_MarkupCompile.lref

@@ -1,0 +1,32 @@
+﻿<Window x:Class="money.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:local="clr-namespace:diary"
+mc:Ignorable="d"
+Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0.3*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Button1" Content="Не надо сюда нажимать пожалуйста" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="0" Click="Button1_Click"/>
+        <Button x:Name="Button2" Content="Посмотреть деньги" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="1" Click="Button2_Click"/>
+        <ListBox x:Name="Listbox" Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="2"/>
+        <DatePicker x:Name="Datepick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.ColumnSpan="4"/>
+        <TextBox x:Name="Txtbox1" HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" TextChanged="Txtbox1_TextChanged"/>
+        <TextBox x:Name="Txtbox2" HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Stretch" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" TextChanged="txtbox2_TextChanged"/>
+
+    </Grid>
+</Window>
